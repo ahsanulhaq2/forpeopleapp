@@ -9,6 +9,7 @@ use Spatie\Permission\Models\Role;
 Route::get('/', [App\Http\Controllers\Website\HomePageController::class, 'index'])->name('home');
 Route::get('/contact', [App\Http\Controllers\Website\ContactPageController::class, 'index'])->name('contact-page');
 Route::get('/about', [App\Http\Controllers\Website\AboutPageController::class, 'index'])->name('about-page');
+Route::get("/about/help", [App\Http\Controllers\Website\ContactPageController::class, 'help'])->name('help-page');
 Route::get('/partnership', [App\Http\Controllers\Website\PartnershipPageController::class, 'index'])->name('partnership-page');
 Route::get('/articles', [App\Http\Controllers\Website\ArticlesPageController::class, 'index'])->name('articles-page');
 Route::get('/articles/{id}', [App\Http\Controllers\Website\ArticlesPageController::class, 'detail'])->name('articles-detail');

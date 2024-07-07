@@ -17,12 +17,13 @@
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th style="width: 5%" scope="col" class="px-4 py-3"></th>
-                            <th style="width: 20%" scope="col" class="px-4 py-3">Event Name</th>
-                            <th style="width: 20%" scope="col" class="px-4 py-3 text-center">Event Date</th>
+                            <th style="width: 15%" scope="col" class="px-4 py-3">Event Name</th>
+                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event Date</th>
                             <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Phone</th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Email</th>
+                            <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Email</th>
                             <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Request Date</th>
                             <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Proposal</th>
+                            <th style="width: 20%" scope="col" class="px-4 py-3 text-center">status</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -41,14 +42,20 @@
                                 <td class="px-4 py-3 text-center">{{ $partnership->created_at->format('d-m-Y') }}</td>
                                 <td class="px-4 py-3 flex items-center justify-center">
                                     <!-- <button>
-{{--
-                                        onclick="Livewire.dispatch('openModal', { component: 'posts.delete-post', arguments: { post: '{{ $post->id }}' } })">
---}}
-                                        <x-iconsax-bol-document-download class="text-green-500" height="1.5rem" width="1.5rem"/>
-                                    </button> -->
-                                    <a href="{{ $pdfUrl }}" download class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                                        Download
+                                        {{--
+                                            onclick="Livewire.dispatch('openModal', { component: 'posts.delete-post', arguments: { post: '{{ $post->id }}' } })">
+                                            --}}
+                                            <x-iconsax-bol-document-download class="text-green-500" height="1.5rem" width="1.5rem"/>
+                                        </button> -->
+                                        <a href="{{ $pdfUrl }}" download class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                            Download
                                     </a>
+                                </td>
+                                <td class="px-4 py-3 text-center">
+                                    <button id="dropdownStatus" data-dropdown-toggle="status" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Approved<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                                        </svg>
+                                    </button>
                                 </td>
                             </tr>
                         @endforeach
@@ -114,4 +121,18 @@
             </div>
         </div>
     </section>
+
+    <div id="status" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+            <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Verification</a>
+            </li>
+            <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Approved</a>
+            </li>
+            <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reject</a>
+            </li>
+        </ul>
+    </div>
 @endsection
