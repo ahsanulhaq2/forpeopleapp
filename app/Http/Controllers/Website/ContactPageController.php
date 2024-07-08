@@ -10,11 +10,4 @@ class ContactPageController extends Controller
     {
         return view('website.pages.contact.index');
     }
-
-    public function help()
-    {
-        $title = "Bantuan";
-
-        return view('website.pages.contact.bantuan', compact('title'));
-    }
 }

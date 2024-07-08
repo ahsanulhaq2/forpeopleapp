@@ -19,7 +19,7 @@
                         <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJjb2xvcjpjdXJyZW50Q29sb3IiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9ImgtZnVsbCB3LWZ1bGwiPjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiByeD0iMzAiIGZpbGw9InRyYW5zcGFyZW50IiBzdHJva2U9InRyYW5zcGFyZW50IiBzdHJva2Utd2lkdGg9IjAiIHN0cm9rZS1vcGFjaXR5PSIxMDAlIiBwYWludC1vcmRlcj0ic3Ryb2tlIj48L3JlY3Q+PHN2ZyB3aWR0aD0iMTcwcHgiIGhlaWdodD0iMTcwcHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGZpbGw9ImN1cnJlbnRDb2xvciIgeD0iMTcxIiB5PSIxNzEiIHJvbGU9ImltZyIgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3ZlcnRpY2FsLWFsaWduOm1pZGRsZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJjdXJyZW50Q29sb3IiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTkyOCAxNjBIOTZjLTE3LjcgMC0zMiAxNC4zLTMyIDMydjY0MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmg4MzJjMTcuNyAwIDMyLTE0LjMgMzItMzJWMTkyYzAtMTcuNy0xNC4zLTMyLTMyLTMyem0tODAuOCAxMDguOUw1MzEuNyA1MTQuNGMtNy44IDYuMS0xOC43IDYuMS0yNi41IDBMMTg5LjYgMjY4LjlBNy4yIDcuMiAwIDAgMSAxOTQgMjU2aDY0OC44YTcuMiA3LjIgMCAwIDEgNC40IDEyLjl6Ij48L3BhdGg+PC9nPjwvc3ZnPjwvc3ZnPg==" alt="mail-filled" style="color:currentColor"></img>
                     </span>
                     <p class="text-center text-sm sm:text-md">Untuk pertanyaan atau feedback dapat menghubungi lewat email kami</p>
-                    <a  href="{{ route('help-page') }}" class="px-8 py-2 bg-blue-400 mt-6 rounded-lg">
+                    <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=kerjasama.forpeople@gmail.com" rel="noreferrer" class="px-8 py-2 bg-blue-400 mt-6 rounded-lg">
                         Bantuan
                     </a>
                 </div>
