@@ -57,7 +57,12 @@
                 </a>
             </div>
             <div class="grid grid-cols-3 gap-4 mt-8">
-                <img class="rounded-lg border-1 m-1 cursor-pointer" src="{{ asset('assets/img/poster.webp') }}" alt="">
+                <iframe width="100%" height="100%"
+                class="rounded-lg border-1 m-1 cursor-pointer" src="https://www.youtube.com/embed/KBSSCc1_2Kw?si=-gcp7J1lEgUyqak1" alt=""
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
                 <img class="rounded-lg border-1 m-1 cursor-pointer" src="{{ asset('assets/img/poster.webp') }}" alt="">
                 <img class="rounded-lg border-1 m-1 cursor-pointer" src="{{ asset('assets/img/poster.webp') }}" alt="">
             </div>

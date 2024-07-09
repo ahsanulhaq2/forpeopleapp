@@ -38,40 +38,40 @@
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">EVENT PARTNER</h2>
         <div class="grid grid-cols-6 gap-4 mt-8 sm:px-24">
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/1_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/2_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/3_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/4_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/5_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/6_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/7_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/8_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/9_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/10_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/11_logo.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ZENIORA.png') }}" alt="">
+                <img src="{{ asset('assets/img/12_logo.png') }}" alt="">
             </div>
         </div>
     </section>
@@ -79,40 +79,40 @@
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">JANGKAUAN KAMPUS</h2>
         <div class="grid grid-cols-6 gap-4 mt-8 sm:px-24">
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/1_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/2_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/3_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/4_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/5_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/7_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/8_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/9_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/10_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/11_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/12_logo_kampus.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ asset('assets/img/LOGO_ITB.png') }}" alt="">
+                <img src="{{ asset('assets/img/6_logo_kampus.png') }}" alt="">
             </div>
         </div>
     </section>

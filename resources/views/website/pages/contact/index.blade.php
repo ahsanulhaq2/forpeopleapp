@@ -3,7 +3,7 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Get in touch</h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Ingin mencoba menghubungi kami? Dengan senang hati kami akan mendengarkan masukan atau kritik, anda dapat menjangkau kami dengan.</p>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Untuk pertanyaan, feedback atau informasi lebih lanjut mengenai kemitraan silahkan hubungi kami dengan mengisi form dibawah ini.</p>
             <div class="grid grid-cols-2 sm:px-12 px-4 gap-x-8">
                 <div class="sm:px-4 px-2 flex flex-col justify-center items-center">
                     <span class="!h-48 !w-48">
