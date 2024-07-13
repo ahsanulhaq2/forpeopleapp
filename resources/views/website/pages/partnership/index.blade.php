@@ -13,7 +13,7 @@
                 @csrf
                 <div class="flex w-full gap-5">
                     <x-input-text class="flex-1" label="Event Organizer Name" name="event_eo_name" id="event_eo_name" required/>
-                    <x-input-text class="flex-1" label="Event PIC name" name="event_pic_name" id="event_pic_name" required/>
+                    <x-input-text class="flex-1" label="Event PIC Name" name="event_pic_name" id="event_pic_name" required/>
                 </div>
                 <div class="flex w-full gap-5">
                     <x-input-text class="flex-1" label="Event Name" name="event_name" id="event_name" required/>
