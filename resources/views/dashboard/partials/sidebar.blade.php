@@ -95,6 +95,16 @@
                     <span class="ml-3">Partnership</span>
                 </a>
             </li>
+            <li>
+                <a
+                    href="{{ route('events.index') }}"
+                    class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
+                >
+                    <x-heroicon-s-users
+                        class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"/>
+                    <span class="ml-3">Event</span>
+                </a>
+            </li>
             @endhasrole
         </ul>
         @hasrole('Admin')

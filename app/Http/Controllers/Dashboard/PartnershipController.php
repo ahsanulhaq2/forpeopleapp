@@ -16,6 +16,19 @@ class PartnershipController extends Controller
         return view('dashboard.pages.partnership.index', compact('partnerships', 'title'));
     }
 
+    public function updateStatus(Partnership $partnership, $status)
+    {
+        try {
+            $partnership->status = $status;
+            $partnership->save();
+
+            return redirect()->back()->with('success', 'Status updated successfully');
+        } catch (Exception $e) {
+            // Redirect dengan pesan error
+            return redirect()->back()->with('error', 'Failed to submit proposal. Please try again.');
+        }
+    }
+
     public function create()
     {
     }

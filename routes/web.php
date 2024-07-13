@@ -37,4 +37,6 @@ Route::prefix('dashboard')->middleware('auth:web')->group(function () {
     Route::resource('category', App\Http\Controllers\Dashboard\CategoryController::class);
     Route::resource('users', App\Http\Controllers\Dashboard\UserController::class);
     Route::get('partnership', [App\Http\Controllers\Dashboard\PartnershipController::class, 'index'])->name('partnership.index');
+    Route::get('/partnership/{partnership}/update-status/{status}', [App\Http\Controllers\Dashboard\PartnershipController::class, 'updateStatus'])->name('partnership.updateStatus');
+    Route::get('events', [App\Http\Controllers\Dashboard\EventsController::class, 'index'])->name('events.index');
 });
