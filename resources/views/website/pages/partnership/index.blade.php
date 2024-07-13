@@ -5,8 +5,7 @@
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                 Partnership</h2>
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-                Dengan komitmen kami menjadi media alternatif yang informatif dan kreatif, event akan lebih mudah untuk tersampaikan
-                kepada khalayak luas. Berminat untuk bekerjasama dengan kami, silahkan isi form dibawah ini.
+                Dengan komitmen kami menjadi media alternatif yang informatif dan kreatif eventmu lebih mudah tersampaikan. Berminat untuk bekerjasama dengan kami, silahkan isi form dibawah ini.
             </p>
             <form action="{{ route('partnership-page.store') }}" class="space-y-8" method="POST"
                   enctype="multipart/form-data">
