@@ -18,7 +18,7 @@
                          alt="phone-filled" style="color:currentColor"></img>
                     </span>
                 <p class="text-center text-sm sm:text-md">Untuk informasi lebih lanjut mengenai kerjasama silahkan hubungi kami</p>
-                <a href="https://wa.me/08988622280" class="px-8 py-2 bg-blue-400 mt-6 rounded-lg">
+                <a href="https://wa.me/08988622280" class="px-8 py-2 bg-blue-700 mt-6 rounded-lg">
                     Hubungi
                 </a>
                 </div>
@@ -32,7 +32,7 @@
                         alt="mail-filled" style="color:currentColor"></img>
                     </span>
                     <p class="text-center text-sm sm:text-md">Untuk pertanyaan atau feedback dapat menghubungi lewat email kami</p>
-                    <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=kerjasama.forpeople@gmail.com" rel="noreferrer" class="px-8 py-2 bg-blue-400 mt-6 rounded-lg">
+                    <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=kerjasama.forpeople@gmail.com" rel="noreferrer" class="px-8 py-2 bg-blue-700 mt-6 rounded-lg">
                         Bantuan
                     </a>
                 </div>
