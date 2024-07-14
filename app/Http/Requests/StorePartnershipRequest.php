@@ -11,6 +11,8 @@ class StorePartnershipRequest extends FormRequest
         return [
             'event_name' => ['required'],
             'event_date' => ['required', 'date'],
+            'eo_name' => ['required'],
+            'event_pic_name' => ['required'],
             'phone' => ['required'],
             'email' => ['required', 'email', 'max:254'],
             'document' => ['required', 'mimes:pdf', 'max:51200'],

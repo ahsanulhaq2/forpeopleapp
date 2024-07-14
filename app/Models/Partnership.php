@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Partnership extends Model
 {
     protected $fillable = [
-        'event_name', 'event_date', 'phone', 'email', 'document', 'user_id', 'status'
+        'event_name', 'event_date', 'eo_name', 'event_pic_name', 'phone', 'email', 'document', 'user_id', 'status'
     ];
 
     protected function casts(): array
@@ -23,7 +23,7 @@ class Partnership extends Model
     {
         switch ($this->status) {
             case 0:
-                return 'Pending';
+                return 'On Progress';
             case 1:
                 return 'Approved';
             case 2:

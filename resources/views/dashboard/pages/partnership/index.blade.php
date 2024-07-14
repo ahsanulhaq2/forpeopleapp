@@ -16,14 +16,16 @@
                     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
-                            <th style="width: 5%" scope="col" class="px-4 py-3"></th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3">Event Name</th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event Date</th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Phone</th>
-                            <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Email</th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Request Date</th>
-                            <th style="width: 20%" scope="col" class="px-4 py-3 text-center">status</th>
-                            <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Proposal</th>
+                            <th scope="col" class="px-4 py-3"></th>
+                            <th scope="col" class="px-4 py-3">Event Name</th>
+                            <th scope="col" class="px-4 py-3 text-center">Event Date</th>
+                            <th scope="col" class="px-4 py-3 text-center">Event Organizer Name</th>
+                            <th scope="col" class="px-4 py-3 text-center">Event PIC Name</th>
+                            <th scope="col" class="px-4 py-3 text-center">Phone</th>
+                            <th scope="col" class="px-4 py-3 text-center">Email</th>
+                            <th scope="col" class="px-4 py-3 text-center">Request Date</th>
+                            <th scope="col" class="px-4 py-3 text-center">status</th>
+                            <th scope="col" class="px-4 py-3 text-center">Proposal</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -37,6 +39,8 @@
                                 </td>
                                 <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $partnership->event_name }}</td>
                                 <td class="px-4 py-3 text-center">{{ $partnership->event_date->format('d-m-Y') }}</td>
+                                <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $partnership->eo_name }}</td>
+                                <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $partnership->event_pic_name }}</td>
                                 <td class="px-4 py-3">{{ $partnership->phone }}</td>
                                 <td class="px-4 py-3">{{ $partnership->email }}</td>
                                 <td class="px-4 py-3 text-center">{{ $partnership->created_at->format('d-m-Y') }}</td>

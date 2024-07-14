@@ -17,13 +17,13 @@
                         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th style="width: 5%" scope="col" class="px-4 py-3"></th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3">Event Name</th>
+                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event Name</th>
                             <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event Date</th>
+                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event Organizer Name</th>
+                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Event PIC Name</th>
                             <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Phone</th>
                             <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Email</th>
-                            <th style="width: 15%" scope="col" class="px-4 py-3 text-center">Request Date</th>
-                            <th style="width: 20%" scope="col" class="px-4 py-3 text-center">status</th>
-                            <th style="width: 10%" scope="col" class="px-4 py-3 text-center">Proposal</th>
+                            <th style="width: 10%" scope="col" class="px-4 py-3 text-center">status</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -37,21 +37,11 @@
                                 </td>
                                 <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $event->event_name }}</td>
                                 <td class="px-4 py-3 text-center">{{ $event->event_date->format('d-m-Y') }}</td>
+                                <td class="px-4 py-3 text-center">{{ $event->eo_name }}</td>
+                                <td class="px-4 py-3 text-center">{{ $event->event_pic_name }}</td>
                                 <td class="px-4 py-3">{{ $event->phone }}</td>
                                 <td class="px-4 py-3">{{ $event->email }}</td>
-                                <td class="px-4 py-3 text-center">{{ $event->created_at->format('d-m-Y') }}</td>
                                 <td class="px-4 py-3 text-center">{{ $event->getStatusTextAttribute() }}</td>
-                                <td class="px-4 py-3 flex items-center justify-center">
-                                    <!-- <button>
-                                        {{--
-                                            onclick="Livewire.dispatch('openModal', { component: 'posts.delete-post', arguments: { post: '{{ $post->id }}' } })">
-                                            --}}
-                                            <x-iconsax-bol-document-download class="text-green-500" height="1.5rem" width="1.5rem"/>
-                                        </button> -->
-                                        <a href="{{ $pdfUrl }}" download class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                                            Download
-                                    </a>
-                                </td>
                             </tr>
                         @endforeach
                         </tbody>
